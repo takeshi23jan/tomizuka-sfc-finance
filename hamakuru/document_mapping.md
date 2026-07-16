@@ -2,6 +2,22 @@
 
 Source page: https://www.city.hamamatsu.shizuoka.jp/renkei/tiikitenkai.html
 
+## 資料の理解整理
+
+この資料群は、補助金制度の理解を深めるために、次の4つの観点で整理すると扱いやすいです。
+
+- 制度理解: 補助金の目的、対象経費、補助額の計算方法、財産管理・処分制限
+- 申請準備: 申請書、事業計画書、収支予算書、税通知書、変更申請書
+- 会計処理: 領収書の保管、帳簿の整備、支払・立替・源泉徴収、財産管理
+- 報告・精算: 実績報告、収支決算、補助金請求、概算払、変更・取消時の対応
+
+主な資料の役割は以下の通りです。
+
+- 制度の根拠: 01yokoan.pdf, 10hojokintebiki.pdf, gaidorinezenbun.pdf, gaidoraingaiyo.pdf
+- 申請書・様式: 02hojokinshinsei2.xlsx, 033gouhojo2.xlsx, shinsei1-1.docx, shinsei1-2.docx, shinsei3.docx, shinsei5.docx, shinsei6.xlsx
+- 会計・帳簿関連: 06shiharaichosho.xlsm, 07ryoushushosisutemu.xlsm, 08ryoushushodaishi.xlsx, 09kaikeishisutemu.xlsm
+- 相談・FAQ・説明会: 12faqkihon.pdf, 13faqkobetu.pdf, 14setumeikaishiryo.pdf, furo-cha-to.pdf, hojokinn.pdf
+
 | 保存ファイル | 対応元リンク | 表示文言 |
 | --- | --- | --- |
 | 10hojokintebiki.pdf | https://www.city.hamamatsu.shizuoka.jp/documents/167835/10hojokintebiki.pdf | はまクル認定クラブ活動支援事業費補助金制度の手引き（PDF：6,080KB） |
