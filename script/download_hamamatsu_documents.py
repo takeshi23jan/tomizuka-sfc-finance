@@ -33,11 +33,11 @@ DOWNLOAD_EXTENSIONS = {
 }
 SKIP_HOSTS = {"youtu.be", "www.youtube.com", "youtube.com"}
 
-
 class LinkParser(HTMLParser):
     def __init__(self) -> None:
         super().__init__()
-        self.links: list[str] = []
+        self.links: list[dict[str, str]] = []
+        self._anchor_stack: list[dict[str, str]] = []
 
     def handle_starttag(self, tag: str, attrs: list[tuple[str, str | None]]) -> None:
         if tag.lower() != "a":
@@ -45,7 +45,16 @@ class LinkParser(HTMLParser):
         attr_map = dict(attrs)
         href = attr_map.get("href")
         if href:
-            self.links.append(href)
+            self._anchor_stack.append({"href": href, "text": ""})
+
+    def handle_data(self, data: str) -> None:
+        if self._anchor_stack:
+            self._anchor_stack[-1]["text"] += data
+
+    def handle_endtag(self, tag: str) -> None:
+        if tag.lower() != "a" or not self._anchor_stack:
+            return
+        self.links.append(self._anchor_stack.pop())
 
 
 def sanitize_filename(name: str) -> str:
@@ -75,6 +84,29 @@ def download_file(url: str, destination: Path) -> None:
         destination.write_bytes(response.read())
 
 
+def build_mapping_markdown(entries: list[dict[str, str]], target_url: str) -> str:
+    lines = [
+        "# Hamamatsu document download mapping",
+        "",
+        f"Source page: {target_url}",
+        "",
+        "| 保存ファイル | 対応元リンク | 表示文言 |",
+        "| --- | --- | --- |",
+    ]
+
+    if not entries:
+        lines.append("| なし | なし | なし |")
+        return "\n".join(lines) + "\n"
+
+    for entry in entries:
+        filename = entry["filename"].replace("|", "\\|")
+        source_url = entry["source_url"].replace("|", "\\|")
+        display_text = re.sub(r"\s+", " ", entry["display_text"]).strip() or "(表示文言なし)"
+        lines.append(f"| {filename} | {source_url} | {display_text} |")
+
+    return "\n".join(lines) + "\n"
+
+
 def main() -> int:
     output_dir = Path(__file__).resolve().parents[1] / "hamakuru"
     output_dir.mkdir(parents=True, exist_ok=True)
@@ -91,22 +123,24 @@ def main() -> int:
     parser.feed(html)
     parser.close()
 
-    unique_links: list[str] = []
+    unique_links: list[tuple[str, str]] = []
     seen: set[str] = set()
-    for href in parser.links:
+    for link in parser.links:
+        href = link["href"]
         full_url = urljoin(TARGET_URL, href)
         if full_url in seen:
             continue
         seen.add(full_url)
         if looks_like_download_link(href):
-            unique_links.append(full_url)
+            unique_links.append((full_url, link["text"]))
 
     if not unique_links:
-        print("No downloadable links were found.")
+        print("No downloadable .links were found.")
         return 1
 
     print(f"Found {len(unique_links)} downloadable links.")
-    for index, url in enumerate(unique_links, start=1):
+    mapping_entries: list[dict[str, str]] = []
+    for index, (url, link_text) in enumerate(unique_links, start=1):
         parsed = urlparse(url)
         filename = sanitize_filename(Path(unquote(parsed.path)).name or f"file_{index}")
         destination = output_dir / filename
@@ -121,9 +155,19 @@ def main() -> int:
         try:
             download_file(url, destination)
             print(f"[{index}/{len(unique_links)}] Downloaded: {destination.name}")
+            mapping_entries.append(
+                {
+                    "filename": destination.name,
+                    "source_url": url,
+                    "display_text": link_text,
+                }
+            )
         except (HTTPError, URLError) as exc:
             print(f"[{index}/{len(unique_links)}] Failed: {url} ({exc})")
 
+    mapping_path = output_dir / "document_mapping.md"
+    mapping_path.write_text(build_mapping_markdown(mapping_entries, TARGET_URL), encoding="utf-8")
+    print(f"Mapping summary saved in: {mapping_path}")
     print(f"Files saved in: {output_dir}")
     return 0
 
