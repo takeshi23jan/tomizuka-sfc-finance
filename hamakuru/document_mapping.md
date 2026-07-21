@@ -2,22 +2,6 @@
 
 Source page: https://www.city.hamamatsu.shizuoka.jp/renkei/tiikitenkai.html
 
-## 資料の理解整理
-
-この資料群は、補助金制度の理解を深めるために、次の4つの観点で整理すると扱いやすいです。
-
-- 制度理解: 補助金の目的、対象経費、補助額の計算方法、財産管理・処分制限
-- 申請準備: 申請書、事業計画書、収支予算書、税通知書、変更申請書
-- 会計処理: 領収書の保管、帳簿の整備、支払・立替・源泉徴収、財産管理
-- 報告・精算: 実績報告、収支決算、補助金請求、概算払、変更・取消時の対応
-
-主な資料の役割は以下の通りです。
-
-- 制度の根拠: 01yokoan.pdf, 10hojokintebiki.pdf, gaidorinezenbun.pdf, gaidoraingaiyo.pdf
-- 申請書・様式: 02hojokinshinsei2.xlsx, 033gouhojo2.xlsx, shinsei1-1.docx, shinsei1-2.docx, shinsei3.docx, shinsei5.docx, shinsei6.xlsx
-- 会計・帳簿関連: 06shiharaichosho.xlsm, 07ryoushushosisutemu.xlsm, 08ryoushushodaishi.xlsx, 09kaikeishisutemu.xlsm
-- 相談・FAQ・説明会: 12faqkihon.pdf, 13faqkobetu.pdf, 14setumeikaishiryo.pdf, furo-cha-to.pdf, hojokinn.pdf
-
 | 保存ファイル | 対応元リンク | 表示文言 |
 | --- | --- | --- |
 | 10hojokintebiki.pdf | https://www.city.hamamatsu.shizuoka.jp/documents/167835/10hojokintebiki.pdf | はまクル認定クラブ活動支援事業費補助金制度の手引き（PDF：6,080KB） |
@@ -25,11 +9,11 @@ Source page: https://www.city.hamamatsu.shizuoka.jp/renkei/tiikitenkai.html
 | 02hojokinsakuseimihon.pdf | https://www.city.hamamatsu.shizuoka.jp/documents/167835/02hojokinsakuseimihon.pdf | 申請様式記載例（PDF：526KB） |
 | 033gouhojo2.xlsx | https://www.city.hamamatsu.shizuoka.jp/documents/167835/033gouhojo2.xlsx | 第3号様式作成補助システム※7月16日修正版（Excel：96KB） |
 | 04iraijoishokujo.docx | https://www.city.hamamatsu.shizuoka.jp/documents/167835/04iraijoishokujo.docx | 指導者依頼状・委嘱状（見本）（Word：1,753KB） |
-| 05gyoumugeppou.xlsx | https://www.city.hamamatsu.shizuoka.jp/documents/167835/05gyoumugeppou.xlsx | 業務月報等（見本）（Excel：35KB） |
-| 06shiharaichosho.xlsm | https://www.city.hamamatsu.shizuoka.jp/documents/167835/06shiharaichosho.xlsm | 講師謝礼・支払調書（見本） |
+| 05geppo2.xlsx | https://www.city.hamamatsu.shizuoka.jp/documents/167835/05geppo2.xlsx | 業務月報等（見本）※7月17日修正版（Excel：35KB） |
+| 06sharei2.xlsm | https://www.city.hamamatsu.shizuoka.jp/documents/167835/06sharei2.xlsm | 講師謝礼・支払調書（見本）7月17日修正版 |
 | 08ryoushushodaishi.xlsx | https://www.city.hamamatsu.shizuoka.jp/documents/167835/08ryoushushodaishi.xlsx | 領収書台紙・立替金請求書兼受領書（見本）（Excel：26KB） |
 | 07ryoushushosisutemu.xlsm | https://www.city.hamamatsu.shizuoka.jp/documents/167835/07ryoushushosisutemu.xlsm | 会費等納入管理（領収書）システム |
-| 09kaikeishisutemu.xlsm | https://www.city.hamamatsu.shizuoka.jp/documents/167835/09kaikeishisutemu.xlsm | はまクル認定クラブ会計システム |
+| 09kaikeishisutemu2.xlsm | https://www.city.hamamatsu.shizuoka.jp/documents/167835/09kaikeishisutemu2.xlsm | はまクル認定クラブ会計システム※7月17日修正版 |
 | 14setumeikaishiryo.pdf | https://www.city.hamamatsu.shizuoka.jp/documents/167835/14setumeikaishiryo.pdf | 補助金制度に関する説明会スライド資料（PDF：6,529KB） |
 | 11gensentebiki.pdf | https://www.city.hamamatsu.shizuoka.jp/documents/167835/11gensentebiki.pdf | 源泉徴収の手引き（PDF：3,662KB） |
 | 12faqkihon.pdf | https://www.city.hamamatsu.shizuoka.jp/documents/167835/12faqkihon.pdf | 補助金制度Q＆A集【基本編】（PDF：629KB） |
