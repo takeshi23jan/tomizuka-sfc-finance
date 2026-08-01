@@ -16,9 +16,6 @@
 | `WithholdingTax.md` | 源泉徴収に関する調査・検討メモ |
 | `予算案.ods` | 予算案スプレッドシート |
 
-### supplement/
-
-
 ### script/
 | ファイル | 説明 |
 |---|---|
@@ -38,6 +35,9 @@
 |---|---|
 | `2025年度収支報告書(父母会).pdf` | 2025年度 富塚中男子ソフトテニス部父母の会 収支報告 |
 
+## Link
+
+- [はまくる認定クラブ](https://club-hamaclu-portal.city.hamamatsu.shizuoka.jp/)
 
 
 作成: 桑原 武(with GitHub Copilot Claude Sonnet 4.6)
