@@ -1,6 +1,32 @@
 # Hamamatsu document download mapping
 
-Source page: https://www.city.hamamatsu.shizuoka.jp/renkei/tiikitenkai.html
+Source page: https://www.city.hamamatsu.shizuoka.jp/renkei/tiikitenkai.html （「休日の部活動の地域展開」ページ）
+
+## ページの構成とダウンロード状況
+
+出典ページの「本ページの構成」に示されている見出しごとに、`hamakuru/` フォルダーに保存したファイルとの対応関係を整理する。
+
+| # | セクション見出し（原文ママ） | ダウンロード済みファイル | 備考 |
+| --- | --- | --- | --- |
+| 1 | 本ページの構成 | なし | 各セクションへの案内文のみ（ファイルなし） |
+| 2 | はまクル認定クラブ活動支援事業費補助金の申請 | 17件（[表を見る](#セクション2はまクル認定クラブ活動支援事業費補助金の申請)） | **補助金申請に必要な手引き・様式・参考資料**。本リポジトリの主目的に最も関連するセクション |
+| 3 | はまクルポータルサイト | 1件（[表を見る](#セクション3はまクルポータルサイト)） | ポータルサイト本体はWebサイトであり、PDFではないため未取得（[https://club-hamaclu-portal.city.hamamatsu.shizuoka.jp/](https://club-hamaclu-portal.city.hamamatsu.shizuoka.jp/)） |
+| 4 | 「はまクル指導者人材バンク」に関する各種申請 | 1件（[表を見る](#セクション4はまクル指導者人材バンクに関する各種申請)） | 申請自体はGraffer上のオンラインフォームで、ダウンロード対象のファイルは存在しない |
+| 5 | 「はまクル認定クラブ」に関する各種申請 | 1件（[表を見る](#セクション5はまクル認定クラブに関する各種申請)） | 同上。申請自体はGraffer上のオンラインフォーム |
+| 6 | 「はまクル認定クラブ」の認定申請、申請内容の変更等の申請様式 | 19件（[表を見る](#セクション6はまクル認定クラブの認定申請申請内容の変更等の申請様式)） | 第1号〜第8号様式・見本例・団体規約見本・説明会資料 |
+| 7 | 浜松市「休日の部活動の地域展開」に関するガイドラインの公表 | 11件（[表を見る](#セクション7浜松市休日の部活動の地域展開に関するガイドラインの公表)） | ガイドライン本文・別冊資料1〜4・参考資料 |
+| 8 | 浜松市「休日の部活動の地域展開」に関するQ＆A集の公表について | 2件（[表を見る](#セクション8浜松市休日の部活動の地域展開に関するqa集の公表について)） | Q＆A集・スケジュール |
+| 9 | 浜松市「休日の部活動の地域展開」に関する説明動画 | なし | YouTube動画へのリンクのみ（PDF等のファイルなし） |
+| 10 | 地域クラブ活動協議会 | 8件（[表を見る](#セクション10地域クラブ活動協議会)） | 第1回〜第4回議事録・協議会だよりNo.9〜12 |
+| 11 | 休日の部活動の地域移行に向けた取組方針 | 2件（[表を見る](#セクション11休日の部活動の地域移行に向けた取組方針)） | 取組方針・概要版 |
+
+※ページ上の大見出しは10個だが、末尾の「休日の部活動の地域移行に向けた取組方針」を別枠で扱い、便宜上11行に分けている。
+
+---
+
+## セクション2：はまクル認定クラブ活動支援事業費補助金の申請
+
+補助金の手引き・申請様式・参考様式・参考資料（要綱、説明会資料、源泉徴収の手引き、Q＆A集、チラシ）がまとまっている。
 
 | 保存ファイル | 対応元リンク | 表示文言 |
 | --- | --- | --- |
@@ -21,9 +47,29 @@ Source page: https://www.city.hamamatsu.shizuoka.jp/renkei/tiikitenkai.html
 | 13faqkobetu.pdf | https://www.city.hamamatsu.shizuoka.jp/documents/167835/13faqkobetu.pdf | 補助金制度Q＆A集【個別課題編】（PDF：450KB） |
 | kobetusoudankai.pdf | https://www.city.hamamatsu.shizuoka.jp/documents/167835/kobetusoudankai.pdf | 補助金申請に関する個別相談会のお知らせ（チラシ）（PDF：247KB） |
 | chirashi3.pdf | https://www.city.hamamatsu.shizuoka.jp/documents/167835/chirashi3.pdf | はまクル認定クラブ申請＆補助金申請のご案内（チラシ）（PDF：1,001KB） |
+
+## セクション3：はまクルポータルサイト
+
+| 保存ファイル | 対応元リンク | 表示文言 |
+| --- | --- | --- |
 | po-taruchirashi2.pdf | https://www.city.hamamatsu.shizuoka.jp/documents/167835/po-taruchirashi2.pdf | はまクルポータルサイト開設しました！（チラシ）（PDF：1,612KB） |
+
+## セクション4：「はまクル指導者人材バンク」に関する各種申請
+
+| 保存ファイル | 対応元リンク | 表示文言 |
+| --- | --- | --- |
 | jinzaibannkuyoko.pdf | https://www.city.hamamatsu.shizuoka.jp/documents/167835/jinzaibannkuyoko.pdf | 浜松市はまクル指導者人材バンク設置要綱（PDF：136KB） |
+
+## セクション5：「はまクル認定クラブ」に関する各種申請
+
+| 保存ファイル | 対応元リンク | 表示文言 |
+| --- | --- | --- |
 | ninteikurabuyouko_1.pdf | https://www.city.hamamatsu.shizuoka.jp/documents/167835/ninteikurabuyouko_1.pdf | 浜松市地域クラブ認定要綱（PDF：562KB） |
+
+## セクション6：「はまクル認定クラブ」の認定申請、申請内容の変更等の申請様式
+
+| 保存ファイル | 対応元リンク | 表示文言 |
+| --- | --- | --- |
 | shinsei1-1.docx | https://www.city.hamamatsu.shizuoka.jp/documents/167835/shinsei1-1.docx | はまクル認定クラブ認定申請書【運営団体兼実施主体用】（第1号様式その1）（Word：69KB） |
 | ninteishinsei1-1.pdf | https://www.city.hamamatsu.shizuoka.jp/documents/167835/ninteishinsei1-1.pdf | pdf版（PDF：225KB） |
 | mihonn1-1.pdf | https://www.city.hamamatsu.shizuoka.jp/documents/167835/mihonn1-1.pdf | 見本例（PDF：301KB） |
@@ -43,6 +89,11 @@ Source page: https://www.city.hamamatsu.shizuoka.jp/renkei/tiikitenkai.html
 | 8goutorikeshi.docx | https://www.city.hamamatsu.shizuoka.jp/documents/167835/8goutorikeshi.docx | はまクル認定クラブ認定取消願書（第8号様式）（Word：16KB） |
 | kiyaku0612.pdf | https://www.city.hamamatsu.shizuoka.jp/documents/167835/kiyaku0612.pdf | はまクル認定クラブ団体規約見本例（PDF：858KB） |
 | setumeikai2.pdf | https://www.city.hamamatsu.shizuoka.jp/documents/167835/setumeikai2.pdf | 当日資料（PDF：4,675KB） |
+
+## セクション7：浜松市「休日の部活動の地域展開」に関するガイドラインの公表
+
+| 保存ファイル | 対応元リンク | 表示文言 |
+| --- | --- | --- |
 | gaidorinezenbun.pdf | https://www.city.hamamatsu.shizuoka.jp/documents/167835/gaidorinezenbun.pdf | 浜松市「休日の部活動の地域展開」に関するガイドライン【全文】（PDF：7,701KB） |
 | gaidoraingaiyo.pdf | https://www.city.hamamatsu.shizuoka.jp/documents/167835/gaidoraingaiyo.pdf | 浜松市「休日の部活動の地域展開」に関するガイドライン【概要版】（PDF：2,204KB） |
 | besatu1.pdf | https://www.city.hamamatsu.shizuoka.jp/documents/167835/besatu1.pdf | ガイドライン別冊資料1「はまクル認定クラブの認定制度」（はまクル指導者バンク登録制度を含む）（PDF：2,448KB） |
@@ -54,8 +105,18 @@ Source page: https://www.city.hamamatsu.shizuoka.jp/renkei/tiikitenkai.html
 | hojokinn.pdf | https://www.city.hamamatsu.shizuoka.jp/documents/167835/hojokinn.pdf | （参考資料）はまクル認定クラブに関する補助金制度の概要（PDF：880KB） |
 | omonahenkou.pdf | https://www.city.hamamatsu.shizuoka.jp/documents/167835/omonahenkou.pdf | （参考資料）ガイドライン（案）からの主な変更点（PDF：581KB） |
 | hamakururi-furett.pdf | https://www.city.hamamatsu.shizuoka.jp/documents/167835/hamakururi-furett.pdf | 浜松市が目指す地域クラブ活動「はまクル」リーフレット（PDF：6,069KB） |
+
+## セクション8：浜松市「休日の部活動の地域展開」に関するQ＆A集の公表について
+
+| 保存ファイル | 対応元リンク | 表示文言 |
+| --- | --- | --- |
 | qashukoushin.pdf | https://www.city.hamamatsu.shizuoka.jp/documents/167835/qashukoushin.pdf | 浜松市「休日の部活動の地域展開」に関するQ＆A集（PDF：862KB） |
 | yotei.pdf | https://www.city.hamamatsu.shizuoka.jp/documents/167835/yotei.pdf | 「はまクル」開始までの想定スケジュール（PDF：455KB） |
+
+## セクション10：地域クラブ活動協議会
+
+| 保存ファイル | 対応元リンク | 表示文言 |
+| --- | --- | --- |
 | dai1kaigijiroku.pdf | https://www.city.hamamatsu.shizuoka.jp/documents/167835/dai1kaigijiroku.pdf | 第1回議事録【概要】（PDF：437KB） |
 | tayori9.pdf | https://www.city.hamamatsu.shizuoka.jp/documents/167835/tayori9.pdf | はままつ地域クラブ活動協議会だよりNo.9（PDF：590KB） |
 | gijiroku2.pdf | https://www.city.hamamatsu.shizuoka.jp/documents/167835/gijiroku2.pdf | 第2回議事録【概要】（PDF：654KB） |
@@ -64,5 +125,10 @@ Source page: https://www.city.hamamatsu.shizuoka.jp/renkei/tiikitenkai.html
 | tayori11.pdf | https://www.city.hamamatsu.shizuoka.jp/documents/167835/tayori11.pdf | はままつ地域クラブ活動協議会だよりNo.11（PDF：477KB） |
 | 07gijiroku4.pdf | https://www.city.hamamatsu.shizuoka.jp/documents/167835/07gijiroku4.pdf | 第4回議事録【概要】（PDF：636KB） |
 | tayori12.pdf | https://www.city.hamamatsu.shizuoka.jp/documents/167835/tayori12.pdf | はままつ地域クラブ活動協議会だよりNo.12（PDF：572KB） |
+
+## セクション11：休日の部活動の地域移行に向けた取組方針
+
+| 保存ファイル | 対応元リンク | 表示文言 |
+| --- | --- | --- |
 | torikumihousin.pdf | https://www.city.hamamatsu.shizuoka.jp/documents/167835/torikumihousin.pdf | 休日の部活動の地域移行に向けた取組方針（PDF：436KB） |
 | torikumihousingaiyou.pdf | https://www.city.hamamatsu.shizuoka.jp/documents/167835/torikumihousingaiyou.pdf | 休日の部活動の地域移行に向けた取組方針【概要】（PDF：423KB） |
