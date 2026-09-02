@@ -3,13 +3,20 @@
 
 ## ファイル構成
 
+### 2026accounting/
+| ファイル | 説明 |
+|---|---|
+| `FinancePlan.md` | R8（2026）年度 確定プラン（会費・謝金・補助金・立替方針） |
+
 ### brain storm/
+検討過程の記録（アーカイブ）。確定プランは`2026accounting/`を参照。
+
 | ファイル | 説明 |
 |---|---|
 | `AccountingCalendar.md` | 会計年度スケジュール・締め日などの年間カレンダー案 |
 | `BudgetProposal.md` | 予算案の検討メモ |
 | `CityInquiries.md` | 浜松市への問い合わせ内容まとめ |
-| `FinancePlanStudy.md` | 会計制度・運営方針の調査・検討メモ |
+| `FinancePlanStudy.md` | 会計制度・運営方針の調査・検討メモ（⚠️過去の試算・数値に誤りあり） |
 | `NakamuraSanRequest.md` | 中村さんからの依頼事項まとめ |
 | `PurchaseAndSubsidy.md` | 購入品・補助金申請に関する検討メモ |
 | `RecordManagement.md` | 帳票・記録管理方針の検討メモ |
